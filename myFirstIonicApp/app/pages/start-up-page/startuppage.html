@@ -1,0 +1,32 @@
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Start up page!</ion-title>
+</ion-navbar>
+
+
+<h1>startup</h1>
+
+<ion-content padding class="getting-started">
+
+  <h3>Welcome to your first Ionic app!</h3>
+
+  <p>
+    This starter project is our way of helping you get a functional app running in record time.
+  </p>
+  <p>
+    Follow along on the tutorial section of the Ionic docs!
+  </p>
+  <p>
+ <ion-nav-buttons side="primary">
+  <button [navPush]="Start">Go To About</button>
+</ion-nav-buttons>
+ 
+  <ion-nav-buttons side="secondary">
+  <button [navPush]="getRandowmUsers">Get Users!</button>
+</ion-nav-buttons>
+ 
+  </p>
+
+</ion-content>
